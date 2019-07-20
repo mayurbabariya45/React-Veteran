@@ -1,0 +1,52 @@
+{
+  "name": "react-veteran",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.2.1",
+    "axios": "^0.19.0",
+    "concurrently": "^4.1.1",
+    "json-server": "^0.15.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-block-ui": "^1.1.4",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "redux": "^4.0.4",
+    "redux-form": "^8.2.4",
+    "redux-form-material-ui": "^4.3.4",
+    "redux-promise-middleware": "^6.1.1",
+    "redux-thunk": "^2.3.0",
+    "wait-on": "^3.3.0"
+  },
+  "scripts": {
+    "start-server": "json-server -p 4000 --watch src/data/clients/veteran-information/data.json",
+    "start-react": "react-scripts start",
+    "start": "concurrently \"npm run start-server\" \"wait-on http://localhost:4000/ && npm run start-react\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^17.1.1",
+    "node-sass": "^4.12.0"
+  }
+}

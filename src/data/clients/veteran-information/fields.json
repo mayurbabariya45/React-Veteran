@@ -1,0 +1,101 @@
+[
+  {
+    "id":1, 
+    "name": "FirstName", 
+    "element": "input", 
+    "type": "text", 
+    "label": "First Name", 
+    "placeholder": "First Name", 
+    "items": [],
+    "required": true 
+  },
+  {
+    "id":1, 
+    "name": "LastName", 
+    "element": "input", 
+    "type": "text", 
+    "label": "Last Name", 
+    "placeholder": "Last Name", 
+    "items": [],
+    "required": true 
+  },
+  {
+    "id":1, 
+    "name": "CityBirth", 
+    "element": "input", 
+    "type": "text", 
+    "label": "City of Birth", 
+    "placeholder": "City of Birth", 
+    "items": [],
+    "required": true 
+  },
+  {
+    "id":1, 
+    "name": "StateBirth", 
+    "element": "input", 
+    "type": "text", 
+    "label": "State of Birth", 
+    "placeholder": "State of Birth", 
+    "items": [],
+    "required": true 
+  },
+  {
+    "id":1, 
+    "name": "ServiceNumber", 
+    "element": "input", 
+    "type": "text", 
+    "label": "Service Number", 
+    "placeholder": "Service Number", 
+    "items": [],
+    "required": true 
+  },
+  {
+    "id":1, 
+    "name": "Branch", 
+    "element": "select", 
+    "type": "", 
+    "label": "Branch", 
+    "placeholder": "", 
+    "items": [
+      { "value": "Army", "label": "Army" },
+      { "value": "Navy", "label": "Navy" },
+      { "value": "Marines", "label": "Marines" },
+      { "value": "AirForce", "label": "AirForce" }
+    ],
+    "required": true 
+  },
+  {
+    "id":1, 
+    "name": "Rank", 
+    "element": "input", 
+    "type": "text", 
+    "label": "Rank", 
+    "placeholder": "Rank", 
+    "items": [],
+    "required": false 
+  },
+  {
+    "id":1, 
+    "name": "Discharge", 
+    "element": "select", 
+    "type": "", 
+    "label": "Discharge", 
+    "placeholder": "", 
+    "items": [
+      { "value": "Honorable", "label": "Honorable" },
+      { "value": "Dishonorable", "label": "Dishonorable" },
+      { "value": "Medical", "label": "Medical" }
+    ],
+    "required": true 
+  },
+  {
+    "id":1, 
+    "name": "Comments", 
+    "element": "input", 
+    "type": "textarea", 
+    "label": "Comments", 
+    "placeholder": "Comments", 
+    "items": [],
+    "required": false 
+  }
+]

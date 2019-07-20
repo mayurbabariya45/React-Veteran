@@ -1,0 +1,28 @@
+$header-height: 64px;
+$sidebar-width: 250px;
+
+.main-template {
+  height: 100%;
+  .app-header {
+    height: $header-height;
+    z-index: 1201;
+  }
+  .template-body {
+    margin-top: $header-height;
+    height: calc(100% - #{$header-height});
+    display: flex;
+    .sidebar {
+      width: $sidebar-width;
+      height: 100%;
+      .sidebar-paper {
+        width: $sidebar-width;
+        top: $header-height;
+        height: calc(100% - #{$header-height});
+      }
+    }
+    main {
+      width: calc(100% - #{$sidebar-width});
+      overflow-y: auto;
+    }
+  }
+}

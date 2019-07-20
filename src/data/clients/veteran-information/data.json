@@ -1,0 +1,43 @@
+{
+  "veterans": [
+    {
+      "ID": "AC00120710490",
+      "CreateDate":"2009-08-26 00:00:00",
+      "FirstName": "John",
+      "LastName": "Rollins",
+      "CityBirth": "Winchendon",
+      "StateBirth": "MA",
+      "ServiceNumber": "123456789",
+      "Branch": "Army",
+      "Rank": "SFC3",
+      "Discharge": "Honorable" ,
+      "Comments": "This is a veteran for testing data."
+    },
+    {
+      "ID": "AC00120710491",
+      "CreateDate":"2009-08-26 00:00:00",
+      "FirstName": "Robert",
+      "LastName": "Simmons",
+      "CityBirth": "Winchendon",
+      "StateBirth": "MA",
+      "ServiceNumber": "123456789",
+      "Branch": "Navy",
+      "Rank": "SFC4",
+      "Discharge": "Medical",
+      "Comments": "This is another veteran for testing data."
+    },
+    {
+      "ID": "AC00120710492",
+      "CreateDate":"2009-08-26 00:00:00",
+      "FirstName": "Susan",
+      "LastName": "Armstrong",
+      "CityBirth": "Winchendon",
+      "StateBirth": "MA",
+      "ServiceNumber": "123456789",
+      "Branch": "Marines",
+      "Rank": "SFC5",
+      "Discharge": "Honorable",
+      "Comments": "This is a third veteran for testing data."
+    }
+  ]
+}

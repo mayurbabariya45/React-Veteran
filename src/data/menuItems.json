@@ -1,0 +1,16 @@
+[
+  {"id": 1, "title": "Home", "tooltip": "Home screen", "url":"/", "subitems": [] },
+  {"id": 2, "title": "Main", "tooltip": "Main screen", "url":"/main", "subitems": [] },
+  {"id": 3, "title": "Clients", "tooltip": "Clients screen", "url":"/clients", "subitems": [
+    {"id": 31, "title": "Veteran Demographics", "tooltip": "Veteran Demographics screen", "url":"/clients/veteran-demographics", "subitems": [] },
+    {"id": 32, "title": "Apointments", "tooltip": "Apointments screen", "url":"/clients/appointments", "subitems": [] },
+    {"id": 33, "title": "Project Entry", "tooltip": "Project Entry screen", "url":"/clients/project-entry", "subitems": [] },
+    {"id": 34, "title": "Address History", "tooltip": "Address History screen", "url":"/clients/address-history", "subitems": [] },
+    {"id": 35, "title": "Veteran Information", "tooltip": "Veteran Information screen", "url":"/clients/veteran-information", "subitems": [] },
+    {"id": 36, "title": "Veteran Disabilities", "tooltip": "Veteran Disabilities screen", "url":"/clients/veteran-disabilities", "subitems": [] },
+    {"id": 37, "title": "Marriage Information", "tooltip": "Marriage Information screen", "url":"/clients/marriage-information", "subitems": [] },
+    {"id": 38, "title": "Household Members", "tooltip": "Household Members screen", "url":"/clients/household-members", "subitems": [] }
+  ] },
+  {"id": 4, "title": "Administration", "tooltip": "Administration screen", "url":"/admin", "subitems": [] },
+  {"id": 5, "title": "Logout", "tooltip": "Logout", "url":"/logout", "subitems": [] }
+]

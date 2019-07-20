@@ -1,0 +1,11 @@
+.veteran-form {
+  margin: $standard-margin * 4 0;
+  .form-field {
+    margin: $standard-margin * 4 0;
+  }
+  .controls {
+    button + button {
+      margin-left: $standard-margin * 2;
+    }
+  }
+}

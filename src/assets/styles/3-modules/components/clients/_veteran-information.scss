@@ -1,0 +1,18 @@
+.veteran-information {
+  padding: $standard-padding * 3;
+  .veterans {
+    table {
+      tbody {
+        tr {
+          cursor: pointer;
+        }
+      }
+      td.spacer {
+        min-width: 400px;
+      }
+    }
+  }
+  .new-veteran {
+    margin: $standard-margin * 2 0;
+  }
+}
